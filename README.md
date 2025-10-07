@@ -1,31 +1,31 @@
-# 🐍 Projeto 01: Calculadora de Média de Notas (Python Fundamentals)
+# 🐍 Project 01: Student Grade Average Calculator (Python Fundamentals)
 
-Este projeto marca a conclusão da minha fase inicial de estudos de Lógica de Programação e Estruturas de Dados em Python. Simula um sistema de entrada de notas para um aluno, calculando a média e definindo a situação final.
+This project marks the successful completion of my initial phase of studying Programming Logic and Core Data Structures in Python. It simulates a system for collecting student grades, calculating the final average, and determining the pass/fail status.
 
-## 🎯 Objetivo
+## 🎯 Objective
 
-Consolidar o uso de **fluxo de controle** e **estruturas de dados básicas**.
+To consolidate the use of **control flow** and **basic data structures** in a single, functional script.
 
-## ✨ Funcionalidades
+## ✨ Key Features
 
-* Coleta dinâmica de notas até o usuário digitar "FIM".
-* Proteção contra erro de Divisão por Zero.
-* Cálculo da Média Final.
-* Determinação da Situação do Aluno: Aprovado (>= 7.0), Recuperação (>= 5.0), Reprovado (< 5.0).
+* Dynamic grade collection: The program continues to collect grades until the user inputs "FIM" (End).
+* Zero Division Protection: Includes a check to prevent calculation errors if no grades are entered.
+* Final Grade Calculation.
+* Determines Student Status: Approved (>= 7.0), Remedial (>= 5.0), Failed (< 5.0).
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Technologies Used
 
-| Conceito | Aplicação no Código |
+| Concept | Application in Code |
 | :--- | :--- |
-| **Lógica de Repetição** | `while True` para coleta de dados e `break` para saída controlada. |
-| **Estruturas de Dados** | `Listas` (`notas`) para armazenar coleções de dados. |
-| **Cálculo** | `float()` para conversão de entrada; `len()` para obter o total de notas. |
-| **Controle de Fluxo** | `if/elif/else` para classificar a situação do aluno. |
+| **Repetition Logic** | `while True` for data collection and `break` for controlled exit. |
+| **Data Structures** | `Lists` (`notas`) to store grade collections. |
+| **Calculations** | `float()` for input conversion; `len()` to get the total number of grades. |
+| **Control Flow** | `if/elif/else` to classify the student's final status. |
 
-## 💻 Como Rodar
+## 💻 How to Run
 
-1. Clone o repositório.
-2. Execute o arquivo `calculadora_media.py` em seu terminal.
+1.  Clone this repository.
+2.  Execute the `calculadora_media.py` file in your terminal.
 
 ```bash
 python calculadora_media.py
