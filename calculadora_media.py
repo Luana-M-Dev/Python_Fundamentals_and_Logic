@@ -1,10 +1,5 @@
 #%%
 
-#Seu Primeiro Projeto: Calculadora de Média 
-#O Desafio
-#Crie um programa que gerencie a entrada de notas de um aluno, calcule a média final das notas inseridas e, por fim, 
-# determine e exiba a situação final do aluno (Aprovado, Reprovado ou Recuperação).
-
 notas = []
 soma_notas = 0
 
